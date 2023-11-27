@@ -41,4 +41,11 @@ Taking a look at the file "key-1-of-3.txt" we find the first key!!
 
 <img src="https://github.com/Jeferson1101/TryHackMe_CTF/blob/main/MrRobot/screenshots/1key.png?raw=true">
 
+<hr>
+
+In the same file we have another tip, it's the "fsocity.dic" file. It is a dictionary containing some names and passwords.
+
+<img src="https://github.com/Jeferson1101/TryHackMe_CTF/blob/main/MrRobot/screenshots/dic.png?raw=true">
+
+Let's try bruteforce the login page found with this dictionary
 
