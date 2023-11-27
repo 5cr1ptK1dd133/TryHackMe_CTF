@@ -1,2 +1,2 @@
-# TryHackMe-CTF
+# TryHackMe CTF
 Walktrough on tryhackme machines
