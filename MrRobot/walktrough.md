@@ -47,5 +47,18 @@ In the same file we have another tip, it's the "fsocity.dic" file. It is a dicti
 
 <img src="https://github.com/Jeferson1101/TryHackMe_CTF/blob/main/MrRobot/screenshots/dic.png?raw=true">
 
-Let's try bruteforce the login page found with this dictionary
+Let's try bruteforce the login page that we found utilizing this dictionary
+
+(machine time over. New IP = 10.10.141.143)
+
+Trying to bruteforce an login page without username and password can be difficult, but we can see in the login form that it informs you if your request had an invalid username (what a bad idea)
+Since it will inform us if the username is incorrect, let's discover what username we can use to bruteforce the application.
+
+Passing a random password with the dictionary we got(fsocity.dic) for usernames we can discover the username
+
+There it is, we got the username "Elliot"
+
+<img src="https://github.com/Jeferson1101/TryHackMe_CTF/blob/main/MrRobot/screenshots/username.png?raw=true">
+
+Let's bruteforce the application for the password now ...
 
